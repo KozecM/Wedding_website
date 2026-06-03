@@ -302,15 +302,8 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 1000px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left center;
   position: relative;
   width: 100%;
-}
-@media screen and (max-width: 768px) {
-  .fh5co-cover {
-    background-size: contain;
-    background-position: center center;
-  }
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -435,6 +428,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-event .event-wrap,
   #fh5co-location .event-wrap {
     margin-bottom: 10px;
+    padding: 10px;
   }
 }
 #fh5co-counter .event-wrap h3,
